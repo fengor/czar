@@ -45,6 +45,7 @@ What do you get if you point Czar at a server? All kinds of good stuff!
 -   [RFC6238](http://tools.ietf.org/html/rfc6238) two-factor authentication compatible with [Google Authenticator](http://en.wikipedia.org/wiki/Google_Authenticator) and various hardware tokens
 -   Nightly backups to [Tarsnap](https://www.tarsnap.com/).
 -   A bunch of nice-to-have tools like [mosh](http://mosh.mit.edu) and [htop](http://htop.sourceforge.net) that make life with a server a little easier.
+-   Your own VPN server via [Wireguard](http://wireguard.com/)
 
 Don’t want one or more of the above services? Comment out the relevant role in `site.yml`. Or get more granular and comment out the associated `include:` directive in one of the playbooks.
 

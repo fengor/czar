@@ -1,0 +1,4 @@
+[czar]
+# hosts in the `czar` group  use vars defined in `group_vars/sovereign`
+# put your host's IP address or domain name below
+host.example.net
